@@ -2,7 +2,7 @@ import "./App.css";
 import CommentBoard from "./components/CommentBoard";
 import Input from "./components/Input";
 import React, { useState, useEffect } from "react";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
 import { get_todos, create_todo, delete_todo } from "./api/endpoint";
 
 function Home() {

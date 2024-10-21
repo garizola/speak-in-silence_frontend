@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Todo from "./Todo";
-import { get_todos } from "../api/endpoint";
+// import { get_todos } from "../api/endpoint";
 
 function CommentBoard({ todos, deleteTodo }) {
   return (
