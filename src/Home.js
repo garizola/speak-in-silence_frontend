@@ -41,7 +41,10 @@ function Home() {
             </p>
             <Input addTodo={addTodo} />
             <p className=" text-fred-blue text-lg sm:text-xl font-bold sm:mt-20 mt-10">
-              comment board
+              comment board{" "}
+              <span className="text-black text-sm font-normal">
+                (comments may take some time to load)
+              </span>
             </p>
           </div>
 
