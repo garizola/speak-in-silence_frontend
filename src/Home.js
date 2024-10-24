@@ -43,7 +43,8 @@ function Home() {
             <p className=" text-fred-blue text-lg sm:text-xl font-bold sm:mt-20 mt-10">
               comment board{" "}
               <span className="text-black text-sm font-normal">
-                (comments may take some time to load)
+                (comments may take some time to load due to backend being served
+                on a free server)
               </span>
             </p>
           </div>
