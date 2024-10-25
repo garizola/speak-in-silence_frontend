@@ -17,6 +17,7 @@ function Input({ addTodo }) {
           onChange={(e) => setInput(e.target.value)}
           className="bg-off-white p-2 max-h-10 border-black border-2 active:border-fred-blue focus:border-fred-blue focus:outline-none w-full"
           placeholder="type what you're thinking :)"
+          value={input}
         />
         <button
           type="submit"

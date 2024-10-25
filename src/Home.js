@@ -40,11 +40,11 @@ function Home() {
               this is a place to speak your thoughts. in quiet but out loud
             </p>
             <Input addTodo={addTodo} />
-            <p className=" text-fred-blue text-lg sm:text-xl font-bold sm:mt-20 mt-10">
+            <p className=" text-fred-blue text-lg sm:text-xl font-bold sm:mt-20 mt-4">
               comment board{" "}
               <span className="text-black text-sm font-normal">
-                (comments may take some time to load due to backend being served
-                on a free server)
+                (comments can take more than a minute to load due to backend
+                being served for free)
               </span>
             </p>
           </div>
